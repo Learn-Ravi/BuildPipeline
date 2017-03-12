@@ -1,6 +1,7 @@
 node {
-   stage 'Stage 1'
-   		echo 'Hello World 1'
+   stage 'Checkout'
+   		echo 'Checkout'
+         git url: 'https://github.com/Learn-Ravi/BuildPipeline.git'
    stage 'Stage 2'
    		echo 'Hello World 2'
 }
